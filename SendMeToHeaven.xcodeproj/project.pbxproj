@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D59D1D1C19098EE100330172 /* SMTHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D1D1B19098EE100330172 /* SMTHViewController.m */; };
+		D59D1D1F19098EF100330172 /* HFIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D1D1E19098EF100330172 /* HFIPViewController.m */; };
+		D59D1D211909A73A00330172 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59D1D201909A73A00330172 /* QuartzCore.framework */; };
+		D5DAC4C71909493C00C56841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DAC4C61909493C00C56841 /* Foundation.framework */; };
+		D5DAC4C91909493C00C56841 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DAC4C81909493C00C56841 /* CoreGraphics.framework */; };
+		D5DAC4CB1909493C00C56841 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DAC4CA1909493C00C56841 /* UIKit.framework */; };
+		D5DAC4D11909493C00C56841 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5DAC4CF1909493C00C56841 /* InfoPlist.strings */; };
+		D5DAC4D31909493C00C56841 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAC4D21909493C00C56841 /* main.m */; };
+		D5DAC4D71909493C00C56841 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAC4D61909493C00C56841 /* AppDelegate.m */; };
+		D5DAC4DA1909493C00C56841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DAC4D81909493C00C56841 /* Main.storyboard */; };
+		D5DAC4DF1909493C00C56841 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DAC4DE1909493C00C56841 /* Images.xcassets */; };
+		D5DAC4E61909493C00C56841 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DAC4E51909493C00C56841 /* XCTest.framework */; };
+		D5DAC4E71909493C00C56841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DAC4C61909493C00C56841 /* Foundation.framework */; };
+		D5DAC4E81909493C00C56841 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DAC4CA1909493C00C56841 /* UIKit.framework */; };
+		D5DAC4F01909493C00C56841 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5DAC4EE1909493C00C56841 /* InfoPlist.strings */; };
+		D5DAC4F21909493C00C56841 /* SendMeToHeavenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DAC4F11909493C00C56841 /* SendMeToHeavenTests.m */; };
+		D5DAC4FC19094F6400C56841 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DAC4FB19094F6400C56841 /* CoreMotion.framework */; };
+		D5EEEFFF190A9EED00FB9862 /* APLGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EEEFFE190A9EED00FB9862 /* APLGraphView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5DAC4E91909493C00C56841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5DAC4BB1909493B00C56841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5DAC4C21909493B00C56841;
+			remoteInfo = SendMeToHeaven;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D59D1D1A19098EE100330172 /* SMTHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTHViewController.h; sourceTree = "<group>"; };
+		D59D1D1B19098EE100330172 /* SMTHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTHViewController.m; sourceTree = "<group>"; };
+		D59D1D1D19098EF100330172 /* HFIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFIPViewController.h; sourceTree = "<group>"; };
+		D59D1D1E19098EF100330172 /* HFIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFIPViewController.m; sourceTree = "<group>"; };
+		D59D1D201909A73A00330172 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D5DAC4C31909493C00C56841 /* SendMeToHeaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendMeToHeaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DAC4C61909493C00C56841 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5DAC4C81909493C00C56841 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5DAC4CA1909493C00C56841 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5DAC4CE1909493C00C56841 /* SendMeToHeaven-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SendMeToHeaven-Info.plist"; sourceTree = "<group>"; };
+		D5DAC4D01909493C00C56841 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5DAC4D21909493C00C56841 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5DAC4D41909493C00C56841 /* SendMeToHeaven-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SendMeToHeaven-Prefix.pch"; sourceTree = "<group>"; };
+		D5DAC4D51909493C00C56841 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5DAC4D61909493C00C56841 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5DAC4D91909493C00C56841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5DAC4DE1909493C00C56841 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5DAC4E41909493C00C56841 /* SendMeToHeavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendMeToHeavenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DAC4E51909493C00C56841 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D5DAC4ED1909493C00C56841 /* SendMeToHeavenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SendMeToHeavenTests-Info.plist"; sourceTree = "<group>"; };
+		D5DAC4EF1909493C00C56841 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5DAC4F11909493C00C56841 /* SendMeToHeavenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendMeToHeavenTests.m; sourceTree = "<group>"; };
+		D5DAC4FB19094F6400C56841 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D5EEEFFD190A9EED00FB9862 /* APLGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLGraphView.h; sourceTree = "<group>"; };
+		D5EEEFFE190A9EED00FB9862 /* APLGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLGraphView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5DAC4C01909493B00C56841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59D1D211909A73A00330172 /* QuartzCore.framework in Frameworks */,
+				D5DAC4FC19094F6400C56841 /* CoreMotion.framework in Frameworks */,
+				D5DAC4C91909493C00C56841 /* CoreGraphics.framework in Frameworks */,
+				D5DAC4CB1909493C00C56841 /* UIKit.framework in Frameworks */,
+				D5DAC4C71909493C00C56841 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DAC4E11909493C00C56841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DAC4E61909493C00C56841 /* XCTest.framework in Frameworks */,
+				D5DAC4E81909493C00C56841 /* UIKit.framework in Frameworks */,
+				D5DAC4E71909493C00C56841 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5DAC4BA1909493B00C56841 = {
+			isa = PBXGroup;
+			children = (
+				D5DAC4CC1909493C00C56841 /* SendMeToHeaven */,
+				D5DAC4EB1909493C00C56841 /* SendMeToHeavenTests */,
+				D5DAC4C51909493C00C56841 /* Frameworks */,
+				D5DAC4C41909493C00C56841 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5DAC4C41909493C00C56841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAC4C31909493C00C56841 /* SendMeToHeaven.app */,
+				D5DAC4E41909493C00C56841 /* SendMeToHeavenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5DAC4C51909493C00C56841 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D59D1D201909A73A00330172 /* QuartzCore.framework */,
+				D5DAC4FB19094F6400C56841 /* CoreMotion.framework */,
+				D5DAC4C61909493C00C56841 /* Foundation.framework */,
+				D5DAC4C81909493C00C56841 /* CoreGraphics.framework */,
+				D5DAC4CA1909493C00C56841 /* UIKit.framework */,
+				D5DAC4E51909493C00C56841 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5DAC4CC1909493C00C56841 /* SendMeToHeaven */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAC4D51909493C00C56841 /* AppDelegate.h */,
+				D5DAC4D61909493C00C56841 /* AppDelegate.m */,
+				D5EEEFFD190A9EED00FB9862 /* APLGraphView.h */,
+				D5EEEFFE190A9EED00FB9862 /* APLGraphView.m */,
+				D5DAC4D81909493C00C56841 /* Main.storyboard */,
+				D59D1D1D19098EF100330172 /* HFIPViewController.h */,
+				D59D1D1E19098EF100330172 /* HFIPViewController.m */,
+				D59D1D1A19098EE100330172 /* SMTHViewController.h */,
+				D59D1D1B19098EE100330172 /* SMTHViewController.m */,
+				D5DAC4DE1909493C00C56841 /* Images.xcassets */,
+				D5DAC4CD1909493C00C56841 /* Supporting Files */,
+			);
+			path = SendMeToHeaven;
+			sourceTree = "<group>";
+		};
+		D5DAC4CD1909493C00C56841 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAC4CE1909493C00C56841 /* SendMeToHeaven-Info.plist */,
+				D5DAC4CF1909493C00C56841 /* InfoPlist.strings */,
+				D5DAC4D21909493C00C56841 /* main.m */,
+				D5DAC4D41909493C00C56841 /* SendMeToHeaven-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5DAC4EB1909493C00C56841 /* SendMeToHeavenTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAC4F11909493C00C56841 /* SendMeToHeavenTests.m */,
+				D5DAC4EC1909493C00C56841 /* Supporting Files */,
+			);
+			path = SendMeToHeavenTests;
+			sourceTree = "<group>";
+		};
+		D5DAC4EC1909493C00C56841 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5DAC4ED1909493C00C56841 /* SendMeToHeavenTests-Info.plist */,
+				D5DAC4EE1909493C00C56841 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5DAC4C21909493B00C56841 /* SendMeToHeaven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DAC4F51909493C00C56841 /* Build configuration list for PBXNativeTarget "SendMeToHeaven" */;
+			buildPhases = (
+				D5DAC4BF1909493B00C56841 /* Sources */,
+				D5DAC4C01909493B00C56841 /* Frameworks */,
+				D5DAC4C11909493B00C56841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendMeToHeaven;
+			productName = SendMeToHeaven;
+			productReference = D5DAC4C31909493C00C56841 /* SendMeToHeaven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5DAC4E31909493C00C56841 /* SendMeToHeavenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DAC4F81909493C00C56841 /* Build configuration list for PBXNativeTarget "SendMeToHeavenTests" */;
+			buildPhases = (
+				D5DAC4E01909493C00C56841 /* Sources */,
+				D5DAC4E11909493C00C56841 /* Frameworks */,
+				D5DAC4E21909493C00C56841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5DAC4EA1909493C00C56841 /* PBXTargetDependency */,
+			);
+			name = SendMeToHeavenTests;
+			productName = SendMeToHeavenTests;
+			productReference = D5DAC4E41909493C00C56841 /* SendMeToHeavenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5DAC4BB1909493B00C56841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kevin He";
+				TargetAttributes = {
+					D5DAC4E31909493C00C56841 = {
+						TestTargetID = D5DAC4C21909493B00C56841;
+					};
+				};
+			};
+			buildConfigurationList = D5DAC4BE1909493B00C56841 /* Build configuration list for PBXProject "SendMeToHeaven" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5DAC4BA1909493B00C56841;
+			productRefGroup = D5DAC4C41909493C00C56841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5DAC4C21909493B00C56841 /* SendMeToHeaven */,
+				D5DAC4E31909493C00C56841 /* SendMeToHeavenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5DAC4C11909493B00C56841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DAC4DF1909493C00C56841 /* Images.xcassets in Resources */,
+				D5DAC4D11909493C00C56841 /* InfoPlist.strings in Resources */,
+				D5DAC4DA1909493C00C56841 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DAC4E21909493C00C56841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DAC4F01909493C00C56841 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5DAC4BF1909493B00C56841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59D1D1C19098EE100330172 /* SMTHViewController.m in Sources */,
+				D59D1D1F19098EF100330172 /* HFIPViewController.m in Sources */,
+				D5DAC4D71909493C00C56841 /* AppDelegate.m in Sources */,
+				D5EEEFFF190A9EED00FB9862 /* APLGraphView.m in Sources */,
+				D5DAC4D31909493C00C56841 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DAC4E01909493C00C56841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DAC4F21909493C00C56841 /* SendMeToHeavenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5DAC4EA1909493C00C56841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5DAC4C21909493B00C56841 /* SendMeToHeaven */;
+			targetProxy = D5DAC4E91909493C00C56841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5DAC4CF1909493C00C56841 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DAC4D01909493C00C56841 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D5DAC4D81909493C00C56841 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DAC4D91909493C00C56841 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5DAC4EE1909493C00C56841 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DAC4EF1909493C00C56841 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5DAC4F31909493C00C56841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5DAC4F41909493C00C56841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5DAC4F61909493C00C56841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendMeToHeaven/SendMeToHeaven-Prefix.pch";
+				INFOPLIST_FILE = "SendMeToHeaven/SendMeToHeaven-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D5DAC4F71909493C00C56841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendMeToHeaven/SendMeToHeaven-Prefix.pch";
+				INFOPLIST_FILE = "SendMeToHeaven/SendMeToHeaven-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D5DAC4F91909493C00C56841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SendMeToHeaven.app/SendMeToHeaven";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendMeToHeaven/SendMeToHeaven-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SendMeToHeavenTests/SendMeToHeavenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D5DAC4FA1909493C00C56841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SendMeToHeaven.app/SendMeToHeaven";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SendMeToHeaven/SendMeToHeaven-Prefix.pch";
+				INFOPLIST_FILE = "SendMeToHeavenTests/SendMeToHeavenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5DAC4BE1909493B00C56841 /* Build configuration list for PBXProject "SendMeToHeaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DAC4F31909493C00C56841 /* Debug */,
+				D5DAC4F41909493C00C56841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DAC4F51909493C00C56841 /* Build configuration list for PBXNativeTarget "SendMeToHeaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DAC4F61909493C00C56841 /* Debug */,
+				D5DAC4F71909493C00C56841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DAC4F81909493C00C56841 /* Build configuration list for PBXNativeTarget "SendMeToHeavenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DAC4F91909493C00C56841 /* Debug */,
+				D5DAC4FA1909493C00C56841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5DAC4BB1909493B00C56841 /* Project object */;
+}
